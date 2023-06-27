@@ -10,6 +10,7 @@ import { SetsController } from './algorithms/sets/sets.controller';
 import { SortingController } from './algorithms/sorting/sorting.controller';
 import { StatisticsController } from './algorithms/statistics/statistics.controller';
 import { StringController } from './algorithms/string/string.controller';
+import { TreeController } from './algorithms/tree/tree.controller';
 
 @Module({
   controllers: [
@@ -24,6 +25,7 @@ import { StringController } from './algorithms/string/string.controller';
     SortingController,
     StatisticsController,
     StringController,
+    TreeController,
   ],
 })
 export class AppModule {}
