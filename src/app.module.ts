@@ -5,6 +5,7 @@ import { ImageProcessingController } from './algorithms/image-processing/image-p
 import { LinkedListController } from './algorithms/linked-list/linked-list.controller';
 import { MathController } from './algorithms/math/math.controller';
 import { MlController } from './algorithms/ml/ml.controller';
+import { SearchController } from './algorithms/search/search.controller';
 
 @Module({
   controllers: [
@@ -14,6 +15,7 @@ import { MlController } from './algorithms/ml/ml.controller';
     LinkedListController,
     MathController,
     MlController,
+    SearchController,
   ],
 })
 export class AppModule {}
