@@ -14,6 +14,7 @@ import { TreeController } from './algorithms/tree/tree.controller';
 import { UncategorizedController } from './algorithms/uncategorized/uncategorized.controller';
 //
 import { CryptographyTestController } from './algorithms/cryptography-test/cryptography-test.controller';
+import { MathTestController } from './algorithms/math-test/math-test.controller';
 
 @Module({
   controllers: [
@@ -31,6 +32,7 @@ import { CryptographyTestController } from './algorithms/cryptography-test/crypt
     TreeController,
     UncategorizedController,
     CryptographyTestController,
+    MathTestController,
   ],
 })
 export class AppModule {}
