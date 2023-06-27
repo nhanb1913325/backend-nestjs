@@ -3,6 +3,7 @@ import { CryptographyController } from './algorithms/cryptography/cryptography.c
 import { GraphController } from './algorithms/graph/graph.controller';
 import { ImageProcessingController } from './algorithms/image-processing/image-processing.controller';
 import { LinkedListController } from './algorithms/linked-list/linked-list.controller';
+import { MathController } from './algorithms/math/math.controller';
 
 @Module({
   controllers: [
@@ -10,6 +11,7 @@ import { LinkedListController } from './algorithms/linked-list/linked-list.contr
     GraphController,
     ImageProcessingController,
     LinkedListController,
+    MathController,
   ],
 })
 export class AppModule {}
