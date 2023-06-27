@@ -8,6 +8,7 @@ import { MlController } from './algorithms/ml/ml.controller';
 import { SearchController } from './algorithms/search/search.controller';
 import { SetsController } from './algorithms/sets/sets.controller';
 import { SortingController } from './algorithms/sorting/sorting.controller';
+import { StatisticsController } from './algorithms/statistics/statistics.controller';
 
 @Module({
   controllers: [
@@ -20,6 +21,7 @@ import { SortingController } from './algorithms/sorting/sorting.controller';
     SearchController,
     SetsController,
     SortingController,
+    StatisticsController,
   ],
 })
 export class AppModule {}
