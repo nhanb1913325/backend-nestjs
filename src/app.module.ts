@@ -12,6 +12,8 @@ import { StatisticsController } from './algorithms/statistics/statistics.control
 import { StringController } from './algorithms/string/string.controller';
 import { TreeController } from './algorithms/tree/tree.controller';
 import { UncategorizedController } from './algorithms/uncategorized/uncategorized.controller';
+//
+import { CryptographyTestController } from './algorithms/cryptography-test/cryptography-test.controller';
 
 @Module({
   controllers: [
@@ -28,6 +30,7 @@ import { UncategorizedController } from './algorithms/uncategorized/uncategorize
     StringController,
     TreeController,
     UncategorizedController,
+    CryptographyTestController,
   ],
 })
 export class AppModule {}
