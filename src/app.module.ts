@@ -4,6 +4,7 @@ import { GraphController } from './algorithms/graph/graph.controller';
 import { ImageProcessingController } from './algorithms/image-processing/image-processing.controller';
 import { LinkedListController } from './algorithms/linked-list/linked-list.controller';
 import { MathController } from './algorithms/math/math.controller';
+import { MlController } from './algorithms/ml/ml.controller';
 
 @Module({
   controllers: [
@@ -12,6 +13,7 @@ import { MathController } from './algorithms/math/math.controller';
     ImageProcessingController,
     LinkedListController,
     MathController,
+    MlController,
   ],
 })
 export class AppModule {}
