@@ -6,6 +6,7 @@ import { LinkedListController } from './algorithms/linked-list/linked-list.contr
 import { MathController } from './algorithms/math/math.controller';
 import { MlController } from './algorithms/ml/ml.controller';
 import { SearchController } from './algorithms/search/search.controller';
+import { SetsController } from './algorithms/sets/sets.controller';
 
 @Module({
   controllers: [
@@ -16,6 +17,7 @@ import { SearchController } from './algorithms/search/search.controller';
     MathController,
     MlController,
     SearchController,
+    SetsController,
   ],
 })
 export class AppModule {}
