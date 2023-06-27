@@ -9,6 +9,7 @@ import { SearchController } from './algorithms/search/search.controller';
 import { SetsController } from './algorithms/sets/sets.controller';
 import { SortingController } from './algorithms/sorting/sorting.controller';
 import { StatisticsController } from './algorithms/statistics/statistics.controller';
+import { StringController } from './algorithms/string/string.controller';
 
 @Module({
   controllers: [
@@ -22,6 +23,7 @@ import { StatisticsController } from './algorithms/statistics/statistics.control
     SetsController,
     SortingController,
     StatisticsController,
+    StringController,
   ],
 })
 export class AppModule {}
